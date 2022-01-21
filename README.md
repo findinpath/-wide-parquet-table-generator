@@ -1,7 +1,9 @@
-Wide Parquet Table Generator
+Parquet Table Generator
 ============================
 
-Proof of concept project for generating a wide Parquet partitioned table containing a lot of columns.
+Proof of concept project for generating:
+- wide Parquet partitioned table containing a lot of columns.
+- long Parquet partitioned table containing a lot of partitions.
 
 The purpose of generating the wide table is to upload it AWS Glue and hit into
 the use case of dealing with _UnprocessedKeys_ when trying  to obtain the partitions.
